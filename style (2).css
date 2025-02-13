@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f3460;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #f5a425;
+}
+
+h3 {
+    color: #f08a5d;
+}
+
+p, ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: square;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.normal {
+    background-color: #16213e;
+}
+
+.ischemia {
+    background-color: #e94560;
+}
+
+.reperfusion {
+    background-color: #533483;
+}
+
+/* Highlight important numbers */
+.highlight {
+    color: #ffcc29;
+    font-weight: bold;
+}
+
+/* Table Styling */
+.table-section {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ffffff;
+}
+
+th {
+    background-color: #0f3460;
+    color: #f5a425;
+}
+
+tr:nth-child(even) {
+    background-color: #2d4059;
+}
+
+tr:hover {
+    background-color: #4a47a3;
+}
+
+/* Color-coded rows */
+.normal-row {
+    background-color: #1e3a5f;
+}
+
+.ischemia-row {
+    background-color: #b83b5e;
+}
+
+.reperfusion-row {
+    background-color: #5d2a8c;
+}

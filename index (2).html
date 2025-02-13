@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ischemia & Cardiac Metabolism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Biochemical Effects of Ischemia on Cardiac Metabolism</h1>
+    </header>
+
+    <section class="normal">
+        <h2>1. Normal Cardiac Metabolism (Aerobic State)</h2>
+        <p>The heart primarily oxidizes <b>fatty acids (~70%)</b> and <b>glucose (~30%)</b> for ATP production.</p>
+        <h3>Fatty Acid Oxidation</h3>
+        <ul>
+            <li>Fatty acids enter cells via <b>FAT/CD36 transporters</b>.</li>
+            <li>β-oxidation generates <b>Acetyl-CoA, NADH, and FADH₂</b>.</li>
+            <li>ATP Yield: <span class="highlight">~106 ATP per palmitate</span> (high but oxygen-intensive).</li>
+        </ul>
+        
+        <h3>Glucose Oxidation</h3>
+        <ul>
+            <li>Glucose enters via <b>GLUT-4</b>, converted to <b>pyruvate</b> through glycolysis.</li>
+            <li>Pyruvate enters the TCA cycle via <b>pyruvate dehydrogenase (PDH)</b>.</li>
+            <li>ATP Yield: <span class="highlight">~32 ATP per glucose</span> (lower but oxygen-efficient).</li>
+        </ul>
+    </section>
+
+    <section class="ischemia">
+        <h2>2. Metabolic Shifts During Ischemia</h2>
+        <p><b>Ischemia reduces oxygen supply</b>, forcing the heart to switch to <b>anaerobic glycolysis</b>, which is inefficient.</p>
+        <h3>Key Effects:</h3>
+        <ul>
+            <li><b>β-Oxidation slows down</b> → Fatty acid metabolism inhibited.</li>
+            <li>Glucose metabolism shifts to <b>anaerobic glycolysis</b>.</li>
+            <li><b>2 ATP per glucose</b> → Energy crisis.</li>
+            <li>Lactate accumulation → <b>Lactic acidosis</b>.</li>
+        </ul>
+    </section>
+
+    <section class="reperfusion">
+        <h2>3. Reperfusion Injury</h2>
+        <p>After oxygen restoration, excessive <b>fatty acid oxidation</b> and <b>ROS formation</b> lead to more damage.</p>
+        <h3>Effects:</h3>
+        <ul>
+            <li>Sudden oxygen influx → <b>ROS generation</b>.</li>
+            <li>Glucose oxidation still suppressed.</li>
+            <li>Mitochondrial damage → <b>Arrhythmias & Cell Death</b>.</li>
+        </ul>
+    </section>
+
+    <section class="table-section">
+        <h2>Summary Table</h2>
+        <table>
+            <tr>
+                <th>State</th>
+                <th>Preferred Fuel</th>
+                <th>ATP Yield</th>
+                <th>Key Effects</th>
+            </tr>
+            <tr class="normal-row">
+                <td>Normal</td>
+                <td>Fatty Acid Oxidation (~70%)</td>
+                <td>High (~106 ATP per FA)</td>
+                <td>Efficient ATP, normal contraction</td>
+            </tr>
+            <tr class="ischemia-row">
+                <td>Ischemia</td>
+                <td>Anaerobic Glycolysis (Glucose)</td>
+                <td>Low (2 ATP per glucose)</td>
+                <td>Lactic acidosis, ATP depletion, weak contraction</td>
+            </tr>
+            <tr class="reperfusion-row">
+                <td>Reperfusion</td>
+                <td>Fatty Acid Oxidation (Excessive)</td>
+                <td>Mismatch (ATP demand > supply)</td>
+                <td>ROS damage, arrhythmias, mitochondrial injury</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
